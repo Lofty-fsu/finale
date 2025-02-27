@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAN Xodimi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./images/avtomobil-gai-v-tashkente-scaled.jpg');
+            background-size: cover;
+            text-align: center;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        marquee {
+            font-size: 18px;
+            color: #ff0000;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #004080;
+            color: white;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        }
+        .frame {
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 3px solid #004080;
+            background-color: #eef;
+            text-align: left;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #004080;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        li{
+            margin-bottom: 10px;
+        }
+        .accordion {
+            width: 80%;
+            margin: auto;
+        }
+        details {
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            padding: 10px;
+        }
+        summary {
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        details[open] summary {
+            border-bottom: 1px solid #ddd;
+        }
+        details p {
+            padding: 10px;
+            margin: 0;
+            background-color: #eef;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Davlat Avtomobil Nazorati (DAN) xodimi – yo‘l harakati xavfsizligini ta’minlovchi tartib-intizom posboni.
+    </header>
+    <marquee direction="left">➡️ DAN xodimlari yo‘llarda xavfsizlikni ta’minlash uchun xizmat qiladi! ⬅️</marquee>
+    <table>
+        <tr>
+            <th>Faoliyat turi</th>
+            <th>Tavsif</th>
+        </tr>
+        <tr>
+            <td>Patrullik</td>
+            <td>Yo‘llarda tartibni saqlash va huquqbuzarliklarni oldini olish.</td>
+        </tr>
+        <tr>
+            <td>Jinoyatchilikka qarshi kurash</td>
+            <td>Reydlar va maxsus tadbirlar o‘tkazish.</td>
+        </tr>
+    </table>
+    <div class="gallery">
+        <img src="./images/gai.jpg" >
+        <img src="./images/gai2.jpg">
+        <img src="./images/gai3.jpg">
+    </div>
+    <video autoplay loop muted playsinline width="640" height="360">
+      <source src="./images/short.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+
+    <div class="frame">
+        <h3>Yo‘l harakati xavfsizligi qoidalari</h3>
+        <p>Yo‘llarda xavfsizlikni ta’minlash uchun har bir haydovchi quyidagi qoidalarga amal qilishi kerak...
+            <ol>
+                <li>Tezlikka rioya qilish – Belgilangan tezlik chegarasidan oshirmang.</li>
+                <li>Yo‘l belgilari va chiziqlariga amal qilish – Harakat qoidalariga rioya qiling.</li>
+                <li>Piyodalarga yo‘l berish – Xavfsizlik uchun ularga ustuvorlik bering.</li>
+                <li>Masofani saqlash – Oldindagi transport vositasi bilan yetarli masofani qoldiring.</li>
+                <li>Alkohol va telefondan foydalanmaslik – Haydash vaqtida hushyor bo‘ling va chalg‘imang.</li>
+            </ol>
+        </p>
+    </div>
+
+    <div class="accordion">
+        <details>
+            <summary>DAN vazifalari</summary>
+            <p>DAN xodimlari yo‘llardagi tartibni saqlash, xavfsizlikni ta’minlash va qoidabuzarliklarni oldini olish bilan shug‘ullanadi.</p>
+        </details>
+        <details>
+            <summary>Haydovchilarning majburiyatlari</summary>
+            <p>Haydovchilar yo‘l harakati qoidalariga rioya qilishlari, tezlikni oshirmasliklari va piyodalarga yo‘l berishlari shart.</p>
+        </details>
+        <details>
+            <summary>Jazo choralar</summary>
+            <p>Qoidalarni buzgan haydovchilarga nisbatan jarimalar va haydovchilik guvohnomasidan mahrum qilish chorasi qo‘llanilishi mumkin.</p>
+            <p><a href="about.html">Batafsil</a></p>
+        </details>
+    </div>  
+
+    <a href="https://yhxx.uz/oz" class="button">🔘 DAN xodimiga murojaat qilish</a>
+    <br>
+    <a href="https://lex.uz/acts/-2850459" class="button">📎 Yo‘l harakati qoidalari haqida batafsil</a>
+</body>
+</html>
